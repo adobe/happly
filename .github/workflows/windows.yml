@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: windows
     runs-on: windows-latest
     if: "! contains(toJSON(github.event.commits.*.message), '[ci skip]')"
     steps:

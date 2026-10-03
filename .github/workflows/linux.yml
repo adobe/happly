@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: linux
     strategy:
       matrix:
         os: [ubuntu-latest]
