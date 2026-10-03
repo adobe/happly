@@ -2,9 +2,9 @@ name: macOS
 
 on:
   push:
-    branches: [ master ]
+    branches: [ adobe ]
   pull_request:
-    branches: [ master ]
+    branches: [ adobe ]
 
 jobs:
   build:
